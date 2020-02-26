@@ -10,7 +10,7 @@
 
 const HtmlWebpackPlugin = require("html-webpack-plugin"); //npm install html-webpack-plugin html-loader --save-dev
 const path = require('path');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');//Auto cleans webpack ./dist folder
 
 module.exports = {
     entry: './src/index.js',
