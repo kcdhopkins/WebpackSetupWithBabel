@@ -1,3 +1,5 @@
+import "./index.css";
+
 const el = document.getElementById("container");
 const div = document.createElement("div");
 const h1 = document.createElement("h1");
