@@ -1,8 +1,8 @@
-import './index.css';
-import image from './assets/webpack.png';
-let el = document.getElementById('container');
-el.value = "Hello world";
+const el = document.getElementById("container");
+const div = document.createElement("div");
+const h1 = document.createElement("h1");
 
-const img = document.createElement('img');
-img.src = image;
-document.body.appendChild(img);
+h1.appendChild(document.createTextNode("Hello World"));
+div.appendChild(h1);
+
+el.appendChild(div);
